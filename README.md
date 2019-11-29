@@ -21,6 +21,7 @@ ps --ppid 2 -p 2 --deselect
 
 [root@localhost admin]# ps --ppid 2 -p 2 --deselect
     PID TTY          TIME CMD
+    
       1 ?        00:00:00 systemd
       
     631 ?        00:00:00 systemd-journal
