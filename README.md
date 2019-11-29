@@ -51,5 +51,22 @@ sshd : est le processus qui gère les connexions SSH sur la machine.
 
 ## Gestion du temps
 
+> [root@localhost admin]# timedatectl
+
+               Local time: ven. 2019-11-29 11:32:26 CET
+               
+           Universal time: ven. 2019-11-29 10:32:26 UTC
+           
+                 RTC time: ven. 2019-11-29 10:32:26
+                 
+                Time zone: Europe/Paris (CET, +0100)
+                
+System clock synchronized: yes
+
+NTP service: active
+              
+RTC in local TZ: no
+
+
 
 
