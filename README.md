@@ -43,7 +43,13 @@ ps --ppid 2 -p 2 --deselect
     
 Par exemple : 
 Firewalld : est le processus qui gère le pare-feu du système.
-bluetoohhd : est le processus qui gère les connexions/carte bluetooth 
+
+bluetoohhd : est le processus qui gère les connexions/carte bluetooth.
+
+sshd : est le processus qui gère les connexions SSH sur la machine.
 ...
+
+## Gestion du temps
+
 
 
