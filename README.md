@@ -4,7 +4,7 @@
 
 La version de systemctl est 243.4.1.fc31
 
-[admin@localhost ~]$ systemctl --version
+> [admin@localhost ~]$ systemctl --version
 systemd 243 (v243.4-1.fc31)
 +PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN2 -IDN +PCRE2 default-hierarchy=unified
 
@@ -19,7 +19,8 @@ ps --ppid 2 -p 2 --deselect
 
 
 
-[root@localhost admin]# ps --ppid 2 -p 2 --deselect
+> [root@localhost admin]# ps --ppid 2 -p 2 --deselect
+
     PID TTY          TIME CMD
     
       1 ?        00:00:00 systemd
