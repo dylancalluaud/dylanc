@@ -22,13 +22,21 @@ ps --ppid 2 -p 2 --deselect
 [root@localhost admin]# ps --ppid 2 -p 2 --deselect
     PID TTY          TIME CMD
       1 ?        00:00:00 systemd
+      
     631 ?        00:00:00 systemd-journal
+    
     647 ?        00:00:00 systemd-udevd
+    
     736 ?        00:00:00 auditd
+    
     738 ?        00:00:00 sedispatch
+    
     767 ?        00:00:00 ModemManager
+    
     769 ?        00:00:00 bluetoothd
+    
     772 ?        00:00:00 firewalld
+    
 
 
 
