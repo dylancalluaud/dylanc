@@ -61,11 +61,13 @@ sshd : est le processus qui gère les connexions SSH sur la machine.
                  
                 Time zone: Europe/Paris (CET, +0100)
                 
-System clock synchronized: yes
+           System clock synchronized: yes
 
-NTP service: active
+           NTP service: active
               
-RTC in local TZ: no
+           RTC in local TZ: no
+           
+ 
 
 
 
