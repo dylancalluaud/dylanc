@@ -67,7 +67,9 @@ sshd : est le processus qui gère les connexions SSH sur la machine.
               
            RTC in local TZ: no
            
- 
+ L'Universal Time est l'horloge mondiale (sans prise en compte des fuseaux horaires de chaque région.
+ Le Local Time est l'horloge mondiale ajustée en fonction du fuseau horaire (En France GMT +1)
+ Le Real Time Clock est l'horloge interne de la machine, heure inscrite dans le BIOS. Cela permet de conserver l'heure et la date même si la machine n'est plus alimentée électriquement.
 
 
 
